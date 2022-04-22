@@ -1,13 +1,13 @@
 # Docker presentation
 
-### first time login
-```
-docker login -u myUserName -p MyDockerHubPassword
-```
-
 ### Build the image
 ```
 docker build -t simple-docker-app .
+```
+
+### List images
+```
+docker images
 ```
 
 ### Run the image
@@ -35,7 +35,7 @@ docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
 
-### List images
+### first time login
 ```
-docker images
+docker login -u myUserName -p MyDockerHubPassword
 ```
