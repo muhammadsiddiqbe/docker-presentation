@@ -1,0 +1,23 @@
+{
+  "name": "docker-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadsiddiqbe/docker-presentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadsiddiqbe/docker-presentation/issues"
+  },
+  "homepage": "https://github.com/muhammadsiddiqbe/docker-presentation#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
