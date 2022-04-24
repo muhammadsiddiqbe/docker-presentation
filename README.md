@@ -35,7 +35,7 @@ docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
 
-### first time login
+### First time login
 ```
 docker login -u myUserName -p MyDockerHubPassword
 ```
