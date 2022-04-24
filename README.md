@@ -3,11 +3,13 @@
 ### Build the image
 ```
 docker build -t simple-docker-app:latest .
+docker tag simple-docker-app:latest muhammadsiddiqbe/simple-docker-app
+
 ```
 
 ## Push image to Docker Hub
 ```
-docker push muhammadsiddiqbe/simple-docker-app:tagname
+docker push muhammadsiddiqbe/simple-docker-app:latest
 ```
 
 ### List images
