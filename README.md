@@ -1,4 +1,4 @@
-# Docker presentation
+# Docker cheetsheet
 
 ### Build the image
 ```
