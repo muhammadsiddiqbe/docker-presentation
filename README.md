@@ -2,7 +2,12 @@
 
 ### Build the image
 ```
-docker build -t simple-docker-app .
+docker build -t simple-docker-app:latest .
+```
+
+## Push image to Docker Hub
+```
+docker push muhammadsiddiqbe/simple-docker-app:tagname
 ```
 
 ### List images
